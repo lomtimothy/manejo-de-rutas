@@ -18,7 +18,6 @@
     </div>
 
     @endif --}}
-    
     <form action="recibe-formulario" method="POST">
         @csrf
         <label for="nombre">Nombre:</label>
