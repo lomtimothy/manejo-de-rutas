@@ -8,7 +8,7 @@
 <body>
     <h1>Contáctanos</h1>
 
-    {{--@if ($errors->any())
+    @if ($errors->any())
     <div class="alert alert-danger">
         <ul>
             @foreach ($errors->all() as $error)
@@ -17,7 +17,7 @@
         </ul>
     </div>
 
-    @endif --}}
+    @endif 
     <form action="recibe-formulario" method="POST">
         @csrf
         <label for="nombre">Nombre:</label>
